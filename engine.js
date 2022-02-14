@@ -22,15 +22,3 @@ class Circle extends Box{
         this.$el.style.borderRadius = '50%'
     }
 }
-const box = new Box({
-    selector: "#box",
-    size:120,
-    color: 'red'
-})
-box.$el.addEventListener('click',function(){
-    box.hide()
-    console.log('You touched me!')
-    setTimeout(()=>{
-        box.show()
-    },1000)
-})
