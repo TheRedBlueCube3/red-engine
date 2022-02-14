@@ -22,3 +22,4 @@ box.$el.addEventListener('click',function(){
   console.log('You touched me!')
 })
 ```
+You can also do pretty much everything with the $el property which is included in HTML.
