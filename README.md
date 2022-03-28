@@ -2,7 +2,7 @@
 HTML engine for making circles and boxes.
 
 For example, this code would work.
-```
+```js
 const box = new Box({
   selector: "#box",
   size: 100,
@@ -12,7 +12,7 @@ const box = new Box({
 
 You can also add event listeners with the $el property.
 Here's how to use it:
-```
+```js
 const box = new Box({
   selector: '#box',
   size: 100,
